@@ -1,0 +1,27 @@
+.wrapper {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .param-container {
+            margin-bottom: 10px;
+
+            label {
+                display: block;
+                width: 100%;
+                margin-left: 5px
+            }
+
+            input {
+                width: calc(100% - 10px);
+            }
+        }
+    }
+}
